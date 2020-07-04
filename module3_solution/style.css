@@ -1,0 +1,8 @@
+.container-fluid {
+    background-image: linear-gradient(to top, #f0f5f5 0%, #3b3b57 100%);
+}
+
+.card {
+    color: white;
+    background-image: linear-gradient(to bottom, #cbd1d1 0%, #898996 100%);
+}
