@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    background-color: rgb(204, 201, 195);
+}
+
+.headline {
+    width: 150px;
+    align-self: flex-end;
+}
+
+h3 {
+    margin: 0;
+    border: 1px solid;
+    text-align: center;
+}
+
+.fish {
+    background-color: rgb(223, 35, 35);
+}
+
+.chicken {
+    background-color: rgb(43, 194, 43);
+}
+
+.beef {
+    background-color: rgba(0, 110, 255, 0.74);
+}
+
+.content {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .card-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-6 {
+        width: 50%;
+    }
+
+    .card-lg-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-4 {
+        width: 33.33%;
+    }
+}
